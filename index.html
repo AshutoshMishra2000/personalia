@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+    <title>form In Bootstrap</title>
+
+    <script>
+        function print()
+        {
+            alert("Thankyou for your Submission");
+        }
+    </script>
+
+    <style>
+        h1{
+    font-family: 'Source Code Pro', monospace;
+    color: blueviolet;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(232, 243, 243);">
+
+  <script>
+       alert("please fill correct information");
+   
+  </script>
+       
+
+    <div class="container border-bottom ">
+        <div class="row text-center">
+            <div class="col-12">
+                <h1>Connect with us</h1>
+            </div>
+        </div>
+
+    </div>
+
+   
+
+    <div class="container-fluid">
+        <div class="row mx-5">
+            <div>
+                <label for="" class="form-label">FirstName</label>
+                <input type="text" class="form-control text-light bg-secondary" placeholder="first name" required>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row mx-5">
+            <div>
+                <label for="" class="form-label">Last Name</label>
+                <input type="text" class="form-control text-light bg-secondary" placeholder="Last Nmae">
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row mx-5">
+            <div class="col form-check">
+                <fieldset style="border: 2px solid black; " class="my-3 bg-secondary rounded">
+                    <legend>Select gender
+                    </legend>
+
+
+          
+
+            <div class="col form-check">
+                <label for="" class="form-label">Male </label>
+                <input type="radio" class="form-check-input" name="gender">
+            </div>
+
+            <div class="col form-check">
+                <label for="" class="form-label"> Female</label>
+                <input type="radio" class="form-check-input" name="gender">
+            </div>
+            <div class="col form-check">
+                <label for="" class="form-label"> Other</label>
+                <input type="radio" class="form-check-input"  name="gender" disabled>
+            </div>
+
+        </fieldset>
+
+        </div>
+    </div>
+
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="mx-5 row">
+
+            <div>
+                <label for="" class="form-label">Email</label>
+
+                <input type="email" class="form-control text-light bg-secondary" placeholder="Username">
+
+                <div class="form-text">we will not share your email </div>
+
+            </div>
+            <div>
+                <label for="" class="form-label">password</label>
+
+                <input type="password" class="form-control text-light bg-secondary" placeholder="Password">
+
+                <div class="form-text">we will not share password</div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    
+    <div class="container-fluid">
+        <div class="mx-5 row">
+            <div>
+                <label for="" class="form-label">Phone Number</label>
+                <input type="tel" class="form-control text-light bg-secondary" placeholder="Mobiile Number....optional">
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="row mx-5">
+            <label for="" class="form-label">Address</label>
+
+        </div>
+
+    </div>
+    <div class="container-fluid">
+        <div class="mx-5 row ">
+
+            <div class=" col-sm-12 col-md-6 col-lg-4  input-group ">
+
+
+                <span class="input-group-text">Address</span>
+
+
+                <input type="text" class="form-control text-light bg-secondary" placeholder="Addresss">
+
+                <span class="input-group-text">
+
+                    <select name="" id="" class="form-select form-select-lg">
+                        <option value="">Select state</option>
+                        <option value="">Uttar pradesh</option>
+                        <option value="">Bihar</option>
+                        <option value="">Uttrakhand</option>
+                        <option value="">Maharashtra</option>
+                        <option value="">Any other....</option>
+                    </select>
+                </span>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid">
+        <div class="row mx-5">
+            <label for="" class="form-label">Comment here..</label>
+
+        </div>
+
+        <div class="container-fluid">
+            <div class="row mx-5">
+                <div class="col">
+                    <div class="form-floating">
+
+
+
+                        <textarea class="form-control" placeholder="We values your comment"
+                            id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Comments</label>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row my-3 text-center">
+                <div class="col">
+               
+                    <button class="btn btn-success" onclick="print()"> Submit</button>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div style="height: 50px; background-color: blueviolet;" class="text-center mt-3">
+            <span class="fa fa-copyright mt-3" >AshutoshMishra</span>
+
+        </div>
+
+
+
+
+
+
+
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+</html>
